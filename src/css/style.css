@@ -16,9 +16,9 @@
     flex-direction: column;
     justify-content: end;
     border-radius: 10px;
+    cursor: pointer;
 }
 .quadro:hover {
-    cursor: pointer;
     box-shadow: 0 0 15px #000000;
 }
 .quadro img {
