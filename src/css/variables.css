@@ -1,10 +1,10 @@
 :root {
     --font-family-public-sans: 'Public Sans', sans-serif;
-    --font-weight-title: 700;
-    --font-weight-text: 300;
     --font-size-title: 30px;
     --font-size-text: 17px;
-    --font-height-title: 35px;
-    --font-height-text: 20px;
+    --font-weight-title: 700;
+    --font-weight-text: 300;
+    --line-height-title: 35px;
+    --line-height-text: 20px;
     --color-text: #FFFFFF;
 }

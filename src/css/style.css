@@ -1,21 +1,43 @@
 .painel {
     width: 1440px;
     padding-top: 129px;
-    background-color: orange;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     z-index: -2;
+    background-color: aqua;
 }
 .quadro {
-    word-wrap: wrap;
     width: 335px;
     height: 432px;
     border: 1px solid black;
     margin: 10px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    border-radius: 10px;
+}
+.quadro:hover {
+    cursor: pointer;
+    box-shadow: 0 0 15px #000000;
 }
 .quadro img {
     position: absolute;
     z-index: -1;
-    /* object-fit: cover; */
+    border-radius: 10px;
+    
+}
+.quadro .info {
+    margin: 43px 26px;
+    color: var(--color-text);
+}
+.quadro .info h2 {
+    font-size: var(--font-size-title);
+    font-weight: var(--font-weight-title);
+    line-height: var(--line-height-title);
+}
+.quadro .info p {
+    font-size: var(--font-size-text);
+    font-weight: var(--font-weight-text);
+    line-height: var(--line-height-text);
 }
