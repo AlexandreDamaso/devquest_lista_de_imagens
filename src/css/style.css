@@ -1,0 +1,20 @@
+.painel {
+    width: 1440px;
+    padding-top: 129px;
+    background-color: orange;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.quadro {
+    word-wrap: wrap;
+    width: 335px;
+    height: 432px;
+    border: 1px solid black;
+    margin: 10px 5px;
+}
+.quadro img {
+    position: absolute;
+    z-index: -1;
+    /* object-fit: cover; */
+}
